@@ -1,0 +1,189 @@
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  height: 100%;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/beijingyejing.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.head {
+  width: 100%;
+  height: 0.5rem;
+  /* box-shadow: 0px 0px 0.2rem 0.2rem #5582A7 inset; */
+  position: relative;
+}
+
+.head .menu {
+  width: 0.25rem;
+  height: 0.25rem;
+  background-image: url('../img/rili.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0.15rem;
+  left: 0.15rem;
+}
+
+.head .addTo {
+  width: 0.25rem;
+  height: 0.25rem;
+  background-image: url('../img/shenghuo.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0.15rem;
+  right: 0.15rem;
+}
+
+.head .writtenWords {
+  width: 2rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  margin-left: -1rem;
+  text-align: center;
+  color: #F0E9E4;
+  font-size: 0.2rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.nav {
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.nav .weather {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  /* width: 2rem; */
+  height: 1.4rem;
+  /* overflow: hidden; */
+  margin-left: 0.2rem;
+  position: relative;
+}
+
+.nav .weather .weather-box {
+  margin: 0.15rem 0;
+  /* width: 0.6rem; */
+  color: #fff;
+  height: 0.6rem;
+  font-size: .5rem;
+}
+
+.nav .weather .weather-wz {
+  /* width: 1rem; */
+  height: 0.3rem;
+  line-height: .3rem;
+  position: absolute;
+  top: 0.8rem;
+  left: 0rem;
+}
+.nav .weather .weather-wz .weather-tianqi{
+  width: 0.3rem;
+  height: 0.3rem;
+  /* background-image: url('../img/shenghuo.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+}
+.nav .weather .weather-wz>div:nth-child(1){
+  float: left;
+}
+.nav .weather .weather-wz>div:nth-child(2){
+  float: left;
+}
+.nav .weather .weather-wz>div:nth-child(3){
+  float: left;
+}
+.nav .weather .weather-wz>div:nth-child(4){
+  float: left;
+}
+
+.nav .weather .weather-wz .weather-tianqi1{
+  margin-left: 0.1rem;
+  width: 0.3rem;
+  /* background-image: url('../img/shenghuo.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+  height: 0.3rem;
+}
+.nav .weather .weather-wz>div:nth-child(5){
+  position: absolute;
+  top: 0.3rem;
+  left: 0;
+  width:0.6rem;
+  height: 0.3rem;
+}
+nav .weather .weather-wz>div:nth-child(5)>div{
+  float: left;
+}
+.nav .weather .weather-wz>div:nth-child(5) .weather-tianqi2{
+  width: 0.3rem;
+  height: 0.3rem;
+  background-image: url('../img/zuobiao.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  float: left;
+}
+.nav .weather .weather-wz>div:nth-child(5) .city{
+  width: 1.5rem;
+  padding-left: 0.4rem;
+  font-size: .1rem;
+  text-align: left;
+}
+
+.nav .weather .weather-wz>div {
+  /* width: 0.7rem; */
+  height: 0.3rem;
+  color: #F0E9E4;
+  text-align: center;
+}
+.nav  .tianqi{
+  background: #fff;
+  margin: 2.7rem auto 0.37rem auto;
+  border-radius: 0.05rem;
+  width: 3rem;
+  height: 1.3rem;
+  box-shadow: 0 0 0.06rem 0.02rem #5DA3E8;
+}
+.nav  .tianqi>div{
+  width: 0.6rem;
+  float: left;
+  height: 1.3rem;
+}
+.nav .tianqi .one .day{
+  height: 0.35rem;
+  line-height: 0.35rem;
+  font-size: .1rem;
+  text-align: center;
+  color: #969FA6;
+}
+.nav .tianqi .one .degrees{
+  height: 0.25rem;
+  line-height: 0.25rem;
+  font-size: .07rem;
+  color: #454545;
+  text-align: center;
+}
+.nav .tianqi .one .icon{
+  width: 0.4rem;
+  height: 0.4rem;
+  margin: 0 auto;
+  background-image: url('../img/rili.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.nav .tianqi .one .forecast{
+  height: 0.25rem;
+  text-align: center;
+  line-height: 0.25rem;
+  font-size: .07rem;
+  color: #454545;
+}
